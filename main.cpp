@@ -50,5 +50,21 @@ void sortArray(int arr[], int size)
     cout << endl;
 
 }
-
+void printOddNaturalNumber()
+{
+    int n;
+    cout << "\t\t\t\t Input the number of terms";
+    cin >>n;
+    cout << endl;
+    cout << "\t\t\t\t the odd numbers are";
+    int i = 1;
+    while(i <= 2*n)
+    {
+        if(i % 2 != 0)
+        {
+            cout << i << ' ';
+        }
+        i++;
+    }
+}
 
