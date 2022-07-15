@@ -158,13 +158,17 @@ int main()
                 
                 exit (0);
         }
-    cout<<"enter"<<endl;
-    cout<<"1:main menu"<<endl;
-    cout<<"press any other key to exit"<<endl;
+     cout<<endl;
+         cout<<endl;
+         cout<<"\t\t\t========================enter======================="<<endl;
+    cout<<"\t \t \t \t \t  1:main menu"<<endl;cout<<endl;
+    cout<<"\t \t \t \t press any other key to exit"<<endl;
                 int j;
                 cin>>j;
                 if (j==1)goto one;
                 else{return 0;}
+
+
         return 0;
     }
     
