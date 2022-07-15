@@ -84,3 +84,11 @@ void multiplicationTable()
         cout << endl;
     }
 }
+
+void charPrinter(int n)
+{
+    for(int i = 0; i < n; i++)
+    {
+        cout << " ";
+    }
+}
