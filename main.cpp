@@ -68,3 +68,19 @@ void printOddNaturalNumber()
     }
 }
 
+void multiplicationTable()
+{
+    int n;
+    cout << "\t\t\t\tInput the number up to:";
+    cin>>n;
+    cout << endl;
+    cout << "\t\t\t\tMultiplication table 1 to " << n << endl;
+    for(int i = 1; i <= 10; i++)
+    {
+        for(int j = 1; j <= n; j++)
+        {
+            cout << j << "*" << i << "=" << i*j << "\t\t";
+        }
+        cout << endl;
+    }
+}
