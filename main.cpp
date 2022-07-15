@@ -121,3 +121,49 @@ void patternPrinter()
         }
     }
 }
+int main()
+{
+    one:
+    cout << "\t\t\t=======================WELCOME=====================" << endl;cout<<endl;
+    cout << "\t\t\t\t Press 1 - to Find transpose of a matrix" << endl;
+    cout << "\t\t\t\t Press 2 - to sort array elements" << endl;
+    cout << "\t\t\t\t Press 3 - to display n terms of odd natural numbers and their sum" << endl;
+    cout << "\t\t\t\t Press 4 - to display the multiplication table" << endl;
+    cout << "\t\t\t\t Press 5 - to see a given patter" << endl;
+    cout << "\t\t\t\t Press 6 - Group members(Name and Id)" << endl;
+    cout << "\t\t\t\t Press 7 - to Exit" << endl;cout<<endl;
+    cout << "\t\t\t===================================================" << endl;
+    int sort[] = {4, 2, 7, 1, 9};
+    int choice;
+    cout << "\t\t\t\t please enter your choice:";
+    cin>>choice;
+     switch(choice)
+        {
+            case 1:
+                transposeMatrix();
+                break;
+            case 2:
+                sortArray(sort, 5);
+                break;
+            case 3:
+                printOddNaturalNumber();
+                break;
+            case 4:
+                multiplicationTable();
+                break;
+            case 5:
+                patternPrinter();
+                break;
+            case 6:
+                printGroupMember();
+            default:
+                
+                exit (0);
+        }
+    cout<<"enter @";
+                int j;
+                cin>>j;
+                if (j==2)goto one;
+        return 0;
+    }
+    
