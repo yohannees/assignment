@@ -124,6 +124,7 @@ void patternPrinter()
 int main()
 {
     one:
+    system("cls");
     cout << "\t\t\t=======================WELCOME=====================" << endl;cout<<endl;
     cout << "\t\t\t\t Press 1 - to Find transpose of a matrix" << endl;
     cout << "\t\t\t\t Press 2 - to sort array elements" << endl;
