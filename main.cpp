@@ -28,3 +28,27 @@ void transposeMatrix()
     }
 
 }
+void sortArray(int arr[], int size)
+{
+    int maxIndex;
+    for(int i = 0; i < size; i++)
+    {
+        int max = INT_MIN;
+        for(int j = i; j < size; j++)
+        {
+            if(arr[j] > max)
+            {
+                max = arr[j];
+                maxIndex = j;
+            }
+        }
+        arr[maxIndex] = arr[i];
+        arr[i] = max;
+        cout << max << " ";
+
+    }
+    cout << endl;
+
+}
+
+
