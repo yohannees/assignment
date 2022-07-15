@@ -157,10 +157,13 @@ int main()
                 
                 exit (0);
         }
-    cout<<"to go to main menu enter 1";
+    cout<<"enter"<<endl;
+    cout<<"1:main menu"<<endl;
+    cout<<"press any other key to exit"<<endl;
                 int j;
                 cin>>j;
                 if (j==1)goto one;
+                else{return 0;}
         return 0;
     }
     
