@@ -92,3 +92,32 @@ void charPrinter(int n)
         cout << " ";
     }
 }
+
+void patternPrinter()
+{
+    int n = 1;
+    int space = 0;
+    for(int i = 0; i <= 4; i++)
+    {
+        if(n != 5)
+        {
+            cout << n;
+            charPrinter(space);
+            if(n != 1)
+                cout << n;
+            cout << endl;
+            cout << endl;
+            n++;
+            space = space + 5;
+
+        }
+        else
+        {
+            for(int j = 0; j <= 4; j++)
+            {
+                 cout << n << "    " << " ";
+            }
+
+        }
+    }
+}
