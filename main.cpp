@@ -130,8 +130,7 @@ int main()
     cout << "\t\t\t\t Press 3 - to display n terms of odd natural numbers and their sum" << endl;
     cout << "\t\t\t\t Press 4 - to display the multiplication table" << endl;
     cout << "\t\t\t\t Press 5 - to see a given patter" << endl;
-    cout << "\t\t\t\t Press 6 - Group members(Name and Id)" << endl;
-    cout << "\t\t\t\t Press 7 - to Exit" << endl;cout<<endl;
+    cout << "\t\t\t\t Press 6 - to Exit" << endl;cout<<endl;
     cout << "\t\t\t===================================================" << endl;
     int sort[] = {4, 2, 7, 1, 9};
     int choice;
@@ -154,16 +153,14 @@ int main()
             case 5:
                 patternPrinter();
                 break;
-            case 6:
-                printGroupMember();
             default:
                 
                 exit (0);
         }
-    cout<<"enter @";
+    cout<<"to go to main menu enter 1";
                 int j;
                 cin>>j;
-                if (j==2)goto one;
+                if (j==1)goto one;
         return 0;
     }
     
